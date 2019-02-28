@@ -1,0 +1,7 @@
+Vary: Accept-Encoding
+Date: Mon, 07 Jan 2019 06:17:43 GMT
+Content-Encoding: gzip
+Content-Type: text/html;charset=UTF-8
+Cache-Control: no-store, no-cache, must-revalidate, proxy-revalidate, post-check=0, pre-check=0
+Set-Cookie: bid=3Bwk3y0B;Path=/;Expires=Mon, 19-Jan-2080 14:09:52 GMT;
+Server: nginx/1.14.0

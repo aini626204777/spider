@@ -1,0 +1,43 @@
+1.创建
+2.继承的类
+3.rules
+    RULE
+      linkExtroct
+4.不能用parse方法
+5.parse_start_url
+
+下载中间件：处于引擎和下载器之间
+反爬措施：
+1.基于请求头的反爬（合理构建请起头）(请求头参数(User-Agent,Referer,Cookie),常见的状态码,常见的请求方式)
+2.基于cookie的反爬(cookie池,文件存储,数据库存储)(如何获取cookies,如何验证cookie,怎么进行模拟登录)
+3.基于ip的反爬(代理,代理的原理？,代理怎么获取?代理如何检测?代理池?)
+4.动态加载的网页？（ajax,js,jq）(selenium?无头,有头浏览器？selenium的方法？)
+5.关于数据加密？（js,app,web网页）
+
+下载中间件
+    @classmethod
+    def from_crawler(cls, crawler):
+
+    def process_request(self, request, spider):
+        所有的request请求在交给下载器之前都会经过这个方法
+        # - return None: continue processing this request
+        # - or return a Response object
+        # - or return a Request object
+        # - or raise IgnoreRequest: process_exception() methods of
+        #   installed downloader middleware will be called
+
+    def process_response(self, request, response, spider):
+        所有的响应结果会经过这个方法
+        # - return a Response object
+        # - return a Request object
+        # - or raise IgnoreRequest
+
+    def process_exception(self, request, exception, spider):
+     　　处理请求的异常错误
+
+
+
+
+
+
+

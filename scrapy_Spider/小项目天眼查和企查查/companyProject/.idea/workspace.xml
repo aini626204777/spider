@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3f452cc8-016a-4a90-bd26-c2fe1a4230e3" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/qichacha$main.coverage" NAME="main Coverage Results" MODIFIED="1543459437832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/companyProject$main.coverage" NAME="main Coverage Results" MODIFIED="1547117148548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/qichacha$qcc.coverage" NAME="qcc Coverage Results" MODIFIED="1543376122625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qichacha/spiders" />
+    <SUITE FILE_PATH="coverage/qichacha$getrandomip.coverage" NAME="getrandomip Coverage Results" MODIFIED="1543409478716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/qichacha/proxypool" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qichacha/spiders/qcc.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1683">
+              <caret line="141" column="119" selection-start-line="141" selection-start-column="119" selection-end-line="141" selection-end-column="119" />
+              <folding>
+                <element signature="e#24#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qichacha/spiders/tianyan.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3111">
+              <caret line="185" column="45" selection-start-line="185" selection-start-column="45" selection-end-line="185" selection-end-column="45" />
+              <folding>
+                <element signature="e#24#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qichacha/items.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1496">
+              <caret line="88" column="43" selection-start-line="88" selection-start-column="43" selection-end-line="88" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/qichacha/middlewares.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qichacha/pipelines.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qichacha/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1472">
+              <caret line="99" column="22" lean-forward="true" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qichacha/proxypool/getrandomip.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qichacha/proxypool/manageip.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="976">
+              <caret line="68" column="11" lean-forward="true" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qichacha/proxypool/scheduler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <element signature="e#5#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find />
+      <find>APP下载</find>
+      <find />
+      <find>QCC_COOKIES</find>
+      <find>TYC_COOKIES</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/qichacha/pipelines.py" />
+        <option value="$PROJECT_DIR$/qichacha/proxypool/getrandomip.py" />
+        <option value="$PROJECT_DIR$/qichacha/items.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/qichacha/middlewares.py" />
+        <option value="$PROJECT_DIR$/qichacha/spiders/qcc.py" />
+        <option value="$PROJECT_DIR$/qichacha/settings.py" />
+        <option value="$PROJECT_DIR$/qichacha/spiders/tianyan.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="30" />
+    <option name="y" value="24" />
+    <option name="width" value="1890" />
+    <option name="height" value="1021" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="companyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="companyProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="companyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="companyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="qichacha" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="page.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/companyProject/page.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="getrandomip" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="qichacha" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qichacha/proxypool" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qichacha/proxypool/getrandomip.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="qichacha" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="qcc" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="qichacha" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qichacha/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qichacha/spiders/qcc.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.page.html" />
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.qcc" />
+      <item itemvalue="Python.getrandomip" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="JavaScript Debug.page.html" />
+        <item itemvalue="Python.getrandomip" />
+        <item itemvalue="Python.qcc" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f452cc8-016a-4a90-bd26-c2fe1a4230e3" name="Default" comment="" />
+      <created>1543306854818</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543306854818</updated>
+      <workItem from="1547168919821" duration="4159000" />
+      <workItem from="1547214034118" duration="3207000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7366000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="30" y="24" width="1890" height="1021" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16775244" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32918552" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.67873305" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.31396648" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16612378" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32918552" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.67873305" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.31396648" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/.virtualenvs/class1804/lib/python3.5/site-packages/scrapy/http/response/html.py" />
+    <entry file="file://$USER_HOME$/.virtualenvs/class1804/lib/python3.5/site-packages/scrapy/http/response/text.py" />
+    <entry file="file://$USER_HOME$/.virtualenvs/class1804/lib/python3.5/site-packages/scrapy/http/response/__init__.py" />
+    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/1028898308/_sqlite3.py" />
+    <entry file="file://$USER_HOME$/.virtualenvs/class1804/lib/python3.5/site-packages/requests/api.py" />
+    <entry file="file://$PROJECT_DIR$/qichacha/proxypool/page.html" />
+    <entry file="file://$USER_HOME$/.virtualenvs/class1804/lib/python3.5/site-packages/scrapy/downloadermiddlewares/httpproxy.py" />
+    <entry file="file://$PROJECT_DIR$/qichacha/spiders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/detailpage.html" />
+    <entry file="file://$PROJECT_DIR$/qichacha/spiders/detail.html" />
+    <entry file="file://$PROJECT_DIR$/page.html" />
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/otherpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17474">
+          <caret line="56" column="682" selection-start-line="56" selection-start-column="682" selection-end-line="56" selection-end-column="682" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#head#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#3555#3562#1" expanded="true" />
+            <element signature="e#5239#5263#0" expanded="true" />
+            <element signature="e#5384#5403#0" expanded="true" />
+            <element signature="e#7016#7042#0" expanded="true" />
+            <element signature="e#8772#8799#0" expanded="true" />
+            <element signature="e#9159#9187#0" expanded="true" />
+            <element signature="e#9429#9474#0" expanded="true" />
+            <element signature="e#9802#9828#0" expanded="true" />
+            <element signature="e#10215#10237#0" expanded="true" />
+            <element signature="e#10848#10883#0" expanded="true" />
+            <element signature="e#10901#10907#0" expanded="true" />
+            <element signature="e#11113#11153#0" expanded="true" />
+            <element signature="e#13216#13240#0" expanded="true" />
+            <element signature="e#13304#13339#0" expanded="true" />
+            <element signature="e#15836#15856#0" expanded="true" />
+            <element signature="e#16165#16185#0" expanded="true" />
+            <element signature="e#16514#16534#0" expanded="true" />
+            <element signature="e#16852#16872#0" expanded="true" />
+            <element signature="e#17198#17218#0" expanded="true" />
+            <element signature="e#19533#19540#1" expanded="true" />
+            <element signature="e#20396#20417#0" expanded="true" />
+            <element signature="e#20574#20581#1" expanded="true" />
+            <element signature="e#21761#21768#1" expanded="true" />
+            <element signature="e#22664#22670#1" expanded="true" />
+            <element signature="e#23233#23240#1" expanded="true" />
+            <element signature="e#23438#23460#0" expanded="true" />
+            <element signature="e#24790#24827#0" expanded="true" />
+            <element signature="e#25030#25112#0" expanded="true" />
+            <element signature="e#25226#25251#0" expanded="true" />
+            <element signature="e#25445#25577#0" expanded="true" />
+            <element signature="e#26497#26503#1" expanded="true" />
+            <element signature="e#27254#27261#1" expanded="true" />
+            <element signature="e#27631#27655#0" expanded="true" />
+            <element signature="e#27752#27775#0" expanded="true" />
+            <element signature="e#28824#28863#0" expanded="true" />
+            <element signature="e#30746#30767#0" expanded="true" />
+            <element signature="e#31904#31925#0" expanded="true" />
+            <element signature="e#32064#32071#1" expanded="true" />
+            <element signature="e#32584#32604#0" expanded="true" />
+            <element signature="e#32752#32759#1" expanded="true" />
+            <element signature="e#33305#33312#1" expanded="true" />
+            <element signature="e#33773#33780#1" expanded="true" />
+            <element signature="e#34266#34273#1" expanded="true" />
+            <element signature="e#34761#34768#1" expanded="true" />
+            <element signature="e#35249#35256#1" expanded="true" />
+            <element signature="e#35739#35746#1" expanded="true" />
+            <element signature="e#36229#36236#1" expanded="true" />
+            <element signature="e#36751#36758#1" expanded="true" />
+            <element signature="e#37814#37821#1" expanded="true" />
+            <element signature="e#38068#38092#0" expanded="true" />
+            <element signature="e#38692#38713#0" expanded="true" />
+            <element signature="e#38852#38859#1" expanded="true" />
+            <element signature="e#38969#38991#0" expanded="true" />
+            <element signature="e#39180#39201#0" expanded="true" />
+            <element signature="e#39487#39521#0" expanded="true" />
+            <element signature="e#39895#39902#1" expanded="true" />
+            <element signature="e#41278#41308#0" expanded="true" />
+            <element signature="e#41447#41454#1" expanded="true" />
+            <element signature="e#41580#41601#0" expanded="true" />
+            <element signature="e#41621#41714#0" expanded="true" />
+            <element signature="e#41743#41898#0" expanded="true" />
+            <element signature="e#43320#43341#0" expanded="true" />
+            <element signature="e#43480#43487#1" expanded="true" />
+            <element signature="e#43844#43865#0" expanded="true" />
+            <element signature="e#44004#44011#1" expanded="true" />
+            <element signature="e#44161#44183#0" expanded="true" />
+            <element signature="e#44394#44415#0" expanded="true" />
+            <element signature="e#44554#44561#1" expanded="true" />
+            <element signature="e#44998#45036#0" expanded="true" />
+            <element signature="e#45139#45159#0" expanded="true" />
+            <element signature="e#45206#45213#1" expanded="true" />
+            <element signature="e#45605#45612#1" expanded="true" />
+            <element signature="e#45959#45966#1" expanded="true" />
+            <element signature="e#48880#48887#1" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="e#62364#62370#0" expanded="true" />
+            <element signature="e#62370#62376#0" expanded="true" />
+            <element signature="e#62376#62382#0" expanded="true" />
+            <element signature="e#62409#62415#0" expanded="true" />
+            <element signature="e#62442#62448#0" expanded="true" />
+            <element signature="e#62475#62481#0" expanded="true" />
+            <element signature="e#62508#62514#0" expanded="true" />
+            <element signature="e#62604#62610#0" expanded="true" />
+            <element signature="e#62728#62734#0" expanded="true" />
+            <element signature="e#62771#62777#0" expanded="true" />
+            <element signature="e#63095#63115#0" expanded="true" />
+            <element signature="e#63341#63360#0" expanded="true" />
+            <element signature="e#63558#63579#0" expanded="true" />
+            <element signature="e#63757#63782#0" expanded="true" />
+            <element signature="e#64015#64022#1" expanded="true" />
+            <element signature="e#65149#65170#0" expanded="true" />
+            <element signature="e#66235#66242#1" expanded="true" />
+            <element signature="e#68563#68583#0" expanded="true" />
+            <element signature="e#68743#68765#0" expanded="true" />
+            <element signature="e#69841#69872#0" expanded="true" />
+            <element signature="e#70378#70409#0" expanded="true" />
+            <element signature="e#70946#70977#0" expanded="true" />
+            <element signature="e#71285#71305#0" expanded="true" />
+            <element signature="e#71416#71423#1" expanded="true" />
+            <element signature="e#71535#71556#0" expanded="true" />
+            <element signature="e#71861#71927#0" expanded="true" />
+            <element signature="e#71988#72035#0" expanded="true" />
+            <element signature="e#72108#72168#0" expanded="true" />
+            <element signature="e#72405#72425#0" expanded="true" />
+            <element signature="e#72536#72543#1" expanded="true" />
+            <element signature="e#72658#72679#0" expanded="true" />
+            <element signature="e#72987#73053#0" expanded="true" />
+            <element signature="e#74364#74371#1" expanded="true" />
+            <element signature="e#76470#76491#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qichacha/spiders/tycdetail.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qichacha/proxypool/ckeckip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1098" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qichacha/proxypool/.idea/代理池.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qichacha/spiders/tianyan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3111">
+          <caret line="185" column="45" selection-start-line="185" selection-start-column="45" selection-end-line="185" selection-end-column="45" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qichacha/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="88" column="43" selection-start-line="88" selection-start-column="43" selection-end-line="88" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qichacha/proxypool/scheduler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#5#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qichacha/proxypool/getrandomip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qichacha/proxypool/manageip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="976">
+          <caret line="68" column="11" lean-forward="true" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qichacha/spiders/qcc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1683">
+          <caret line="141" column="119" selection-start-line="141" selection-start-column="119" selection-end-line="141" selection-end-column="119" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qichacha/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1472">
+          <caret line="99" column="22" lean-forward="true" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qichacha/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qichacha/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

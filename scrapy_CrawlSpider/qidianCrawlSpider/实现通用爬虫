@@ -1,0 +1,20 @@
+创建爬虫文件的方式
+
+scrapy genspider -t crawl 爬虫文件 域
+
+爬虫文件集成的类CrawlSpider
+
+rules:里面存放的是Rule对象（元祖或列表）
+
+Rule:自定义提取规则，提取到的url,会自动构建Request对象，设置回调函数解析响应结果，设施是否需要跟进。
+
+process_links：拦截Rule规则提取的url，返回的是一个列表，列表里面存放的是Link对象
+
+LinkExtractor：是一个对象，设置提取url的规则
+
+注意：Ruel中如果没有设置callback回调，follow默认为True
+注意：一定不要去实现parse方法
+注意：要想处理起始url的响应结果，需要重写parse_start_url方法
+
+什么时候适合使用crawlspider?
+一般网页结构比较简单，页面大多是静态界面

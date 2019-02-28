@@ -1,0 +1,181 @@
+2019-01-08 10:07:44 [scrapy.utils.log] INFO: Scrapy 1.5.1 started (bot: xiachufang)
+2019-01-08 10:07:44 [scrapy.utils.log] INFO: Versions: lxml 3.5.0.0, libxml2 2.9.3, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.9.0, Python 3.5.2 (default, Nov 12 2018, 13:43:14) - [GCC 5.4.0 20160609], pyOpenSSL 18.0.0 (OpenSSL 1.1.0j  20 Nov 2018), cryptography 2.4.2, Platform Linux-4.15.0-43-generic-x86_64-with-Ubuntu-16.04-xenial
+2019-01-08 10:07:44 [scrapy.crawler] INFO: Overridden settings: {'DUPEFILTER_CLASS': 'scrapy_redis.dupefilter.RFPDupeFilter', 'LOG_FILE': 'xcf1.log', 'BOT_NAME': 'xiachufang', 'SPIDER_MODULES': ['xiachufang.spiders'], 'SCHEDULER': 'scrapy_redis.scheduler.Scheduler', 'NEWSPIDER_MODULE': 'xiachufang.spiders'}
+2019-01-08 10:07:44 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole']
+2019-01-08 10:07:44 [xcfCrawlSpider] INFO: Reading start URLs from redis key 'xcfCrawlSpider:start_urls' (batch size: 16, encoding: utf-8
+2019-01-08 10:07:44 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019-01-08 10:07:44 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019-01-08 10:07:44 [scrapy.middleware] INFO: Enabled item pipelines:
+['scrapy_redis.pipelines.RedisPipeline']
+2019-01-08 10:07:44 [scrapy.core.engine] INFO: Spider opened
+2019-01-08 10:07:44 [xcfCrawlSpider] DEBUG: Resuming crawl (33234 requests scheduled)
+2019-01-08 10:07:44 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019-01-08 10:07:44 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6027
+2019-01-08 10:07:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/115/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/52463/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:45 [scrapy_redis.dupefilter] DEBUG: Filtered duplicate request <GET http://www.xiachufang.com/category/40076/> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2019-01-08 10:07:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/100/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/129/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/117/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/122/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/132/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/151/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/175/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/121/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/176/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/177/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/155/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/208/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/134/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/188/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/139/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/211/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/215/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/214/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/227/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:47 [scrapy.core.downloader.tls] WARNING: Remote certificate is not valid for hostname "www.xiachufang.com"; '*.xiachufang.com'!='www.xiachufang.com'
+2019-01-08 10:07:47 [scrapy.core.downloader.tls] WARNING: Remote certificate is not valid for hostname "www.xiachufang.com"; '*.xiachufang.com'!='www.xiachufang.com'
+2019-01-08 10:07:48 [scrapy.core.downloader.tls] WARNING: Remote certificate is not valid for hostname "www.xiachufang.com"; '*.xiachufang.com'!='www.xiachufang.com'
+2019-01-08 10:07:48 [scrapy.core.downloader.tls] WARNING: Remote certificate is not valid for hostname "www.xiachufang.com"; '*.xiachufang.com'!='www.xiachufang.com'
+2019-01-08 10:07:48 [scrapy.core.downloader.tls] WARNING: Remote certificate is not valid for hostname "www.xiachufang.com"; '*.xiachufang.com'!='www.xiachufang.com'
+2019-01-08 10:07:48 [scrapy.core.downloader.tls] WARNING: Remote certificate is not valid for hostname "www.xiachufang.com"; '*.xiachufang.com'!='www.xiachufang.com'
+2019-01-08 10:07:48 [scrapy.core.downloader.tls] WARNING: Remote certificate is not valid for hostname "www.xiachufang.com"; '*.xiachufang.com'!='www.xiachufang.com'
+2019-01-08 10:07:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1009178/> (referer: http://www.xiachufang.com/category/115/)
+2019-01-08 10:07:48 [scrapy.core.downloader.tls] WARNING: Remote certificate is not valid for hostname "www.xiachufang.com"; '*.xiachufang.com'!='www.xiachufang.com'
+2019-01-08 10:07:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1001178/> (referer: http://www.xiachufang.com/category/115/)
+2019-01-08 10:07:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/4435/> (referer: http://www.xiachufang.com/category/100/)
+2019-01-08 10:07:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1009487/> (referer: http://www.xiachufang.com/category/115/)
+2019-01-08 10:07:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1019479/> (referer: http://www.xiachufang.com/category/115/)
+2019-01-08 10:07:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1017175/> (referer: http://www.xiachufang.com/category/100/)
+2019-01-08 10:07:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1001283/> (referer: http://www.xiachufang.com/category/117/)
+2019-01-08 10:07:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1029322/> (referer: http://www.xiachufang.com/category/117/)
+2019-01-08 10:07:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1018018/> (referer: http://www.xiachufang.com/category/117/)
+2019-01-08 10:07:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1004747/> (referer: http://www.xiachufang.com/category/129/)
+2019-01-08 10:07:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1013791/> (referer: http://www.xiachufang.com/category/122/)
+2019-01-08 10:07:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1020408/> (referer: http://www.xiachufang.com/category/122/)
+2019-01-08 10:07:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/234/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/235/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1037447/> (referer: http://www.xiachufang.com/category/176/)
+2019-01-08 10:07:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1007037/> (referer: http://www.xiachufang.com/category/121/)
+2019-01-08 10:07:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/253/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1009946/> (referer: http://www.xiachufang.com/category/151/)
+2019-01-08 10:07:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1013209/> (referer: http://www.xiachufang.com/category/121/)
+2019-01-08 10:07:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1010547/> (referer: http://www.xiachufang.com/category/151/)
+2019-01-08 10:07:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1001309/> (referer: http://www.xiachufang.com/category/139/)
+2019-01-08 10:07:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1013137/> (referer: http://www.xiachufang.com/category/151/)
+2019-01-08 10:07:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1017937/> (referer: http://www.xiachufang.com/category/151/)
+2019-01-08 10:07:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1004616/> (referer: http://www.xiachufang.com/category/155/)
+2019-01-08 10:07:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1012737/> (referer: http://www.xiachufang.com/category/177/)
+2019-01-08 10:07:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1004206/> (referer: http://www.xiachufang.com/category/177/)
+2019-01-08 10:07:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1017157/> (referer: http://www.xiachufang.com/category/175/)
+2019-01-08 10:07:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1018100/> (referer: http://www.xiachufang.com/category/177/)
+2019-01-08 10:07:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1018356/> (referer: http://www.xiachufang.com/category/177/)
+2019-01-08 10:07:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1018365/> (referer: http://www.xiachufang.com/category/177/)
+2019-01-08 10:07:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1004647/> (referer: http://www.xiachufang.com/category/188/)
+2019-01-08 10:07:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1036894/> (referer: http://www.xiachufang.com/category/177/)
+2019-01-08 10:07:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1010291/> (referer: http://www.xiachufang.com/category/208/)
+2019-01-08 10:07:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1014423/> (referer: http://www.xiachufang.com/category/188/)
+2019-01-08 10:07:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1004552/> (referer: http://www.xiachufang.com/category/214/)
+2019-01-08 10:07:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1020594/> (referer: http://www.xiachufang.com/category/214/)
+2019-01-08 10:07:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1017093/> (referer: http://www.xiachufang.com/category/188/)
+2019-01-08 10:07:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1013298/> (referer: http://www.xiachufang.com/category/215/)
+2019-01-08 10:07:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1001531/> (referer: http://www.xiachufang.com/category/214/)
+2019-01-08 10:07:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1016063/> (referer: http://www.xiachufang.com/category/215/)
+2019-01-08 10:07:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1018497/> (referer: https://www.xiachufang.com/category/1001283/)
+2019-01-08 10:07:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1007231/> (referer: https://www.xiachufang.com/category/1001283/)
+2019-01-08 10:07:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1012338/> (referer: https://www.xiachufang.com/category/1007037/)
+2019-01-08 10:07:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1003553/> (referer: https://www.xiachufang.com/category/1001178/)
+2019-01-08 10:07:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1008641/> (referer: https://www.xiachufang.com/category/1001283/)
+2019-01-08 10:07:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1018475/> (referer: https://www.xiachufang.com/category/1007037/)
+2019-01-08 10:07:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1007345/> (referer: https://www.xiachufang.com/category/1009487/)
+2019-01-08 10:07:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1029619/> (referer: https://www.xiachufang.com/category/1004616/)
+2019-01-08 10:07:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1017898/> (referer: https://www.xiachufang.com/category/1009946/)
+2019-01-08 10:07:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1001678/> (referer: https://www.xiachufang.com/category/1004616/)
+2019-01-08 10:07:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1022656/> (referer: https://www.xiachufang.com/category/1010547/)
+2019-01-08 10:07:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1017896/> (referer: https://www.xiachufang.com/category/1013137/)
+2019-01-08 10:07:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1013145/> (referer: https://www.xiachufang.com/category/1010547/)
+2019-01-08 10:07:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1006161/> (referer: https://www.xiachufang.com/category/1009946/)
+2019-01-08 10:07:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1000868/> (referer: https://www.xiachufang.com/category/1013137/)
+2019-01-08 10:07:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1013754/> (referer: https://www.xiachufang.com/category/1004206/)
+2019-01-08 10:07:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1018359/> (referer: https://www.xiachufang.com/category/1004206/)
+2019-01-08 10:07:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/271/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1017936/> (referer: https://www.xiachufang.com/category/1013137/)
+2019-01-08 10:07:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1037760/> (referer: https://www.xiachufang.com/category/1004647/)
+2019-01-08 10:07:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1018199/> (referer: https://www.xiachufang.com/category/1012737/)
+2019-01-08 10:07:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/274/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1019499/> (referer: https://www.xiachufang.com/category/1013137/)
+2019-01-08 10:07:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1013422/> (referer: https://www.xiachufang.com/category/1004552/)
+2019-01-08 10:07:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1009023/> (referer: https://www.xiachufang.com/category/1004552/)
+2019-01-08 10:07:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1012083/> (referer: https://www.xiachufang.com/category/1001531/)
+2019-01-08 10:07:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1013609/> (referer: https://www.xiachufang.com/category/1001531/)
+2019-01-08 10:07:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1029343/> (referer: https://www.xiachufang.com/category/1001531/)
+2019-01-08 10:07:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1012400/> (referer: https://www.xiachufang.com/category/1004552/)
+2019-01-08 10:07:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1020598/> (referer: https://www.xiachufang.com/category/1013298/)
+2019-01-08 10:07:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1014421/> (referer: https://www.xiachufang.com/category/1014423/)
+2019-01-08 10:07:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1016359/> (referer: https://www.xiachufang.com/category/1003553/)
+2019-01-08 10:07:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1011785/> (referer: https://www.xiachufang.com/category/1007231/)
+2019-01-08 10:07:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1005534/> (referer: https://www.xiachufang.com/category/1012338/)
+2019-01-08 10:07:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/277/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/285/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1005547/> (referer: https://www.xiachufang.com/category/1007345/)
+2019-01-08 10:07:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1001590/> (referer: https://www.xiachufang.com/category/1008641/)
+2019-01-08 10:07:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1009430/> (referer: https://www.xiachufang.com/category/1000868/)
+2019-01-08 10:07:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/280/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1021830/> (referer: https://www.xiachufang.com/category/1000868/)
+2019-01-08 10:07:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/324/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1018198/> (referer: https://www.xiachufang.com/category/1000868/)
+2019-01-08 10:07:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/315/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/300/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/330/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/333/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1014220/> (referer: https://www.xiachufang.com/category/1013609/)
+2019-01-08 10:07:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1026465/> (referer: http://www.xiachufang.com/category/271/)
+2019-01-08 10:07:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/306/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/350/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/348/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/370/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/374/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/393/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/391/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/402/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/441/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/423/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/427/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:07:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/449/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:08:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/454/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:08:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/455/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:08:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1001220/> (referer: https://www.xiachufang.com/category/1005547/)
+2019-01-08 10:08:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/474/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:08:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/468/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:08:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/471/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:08:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/466/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:08:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1011649/> (referer: http://www.xiachufang.com/category/285/)
+2019-01-08 10:08:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1012233/> (referer: http://www.xiachufang.com/category/277/)
+2019-01-08 10:08:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1015911/> (referer: http://www.xiachufang.com/category/285/)
+2019-01-08 10:08:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1019976/> (referer: http://www.xiachufang.com/category/285/)
+2019-01-08 10:08:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1000692/> (referer: https://www.xiachufang.com/category/1009430/)
+2019-01-08 10:08:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.xiachufang.com/category/1004534/> (referer: https://www.xiachufang.com/category/1009430/)
+2019-01-08 10:08:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/498/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:08:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/517/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:08:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/515/> (referer: http://www.xiachufang.com/category/)
+2019-01-08 10:08:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.xiachufang.com/category/501/> (referer: http://www.xiachufang.com/category/)
